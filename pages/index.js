@@ -4,7 +4,8 @@ import Head from 'next/head';
 import Link from 'next/link';
 import useSWR from 'SWR';
 
-import { Header, Content } from './components/bundle';
+import Header from './components/header';
+import Content from './components/content';
 
 
 export default function Home() {
